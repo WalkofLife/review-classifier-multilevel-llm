@@ -2,14 +2,14 @@ This is a **simplified version** of the review classification project.
 It uses a fixed local LLM model via `ctransformers` and directly loads settings from code —  
 no config files, no wrapper classes.
 
-'''
+```
 minimal_version/
 │
 ├── classify_graph.py       # Core classification logic
 ├── review_classification.py # Script to run classification on sample reviews
 ├── category_hierarchy.csv   # Category hierarchy
 └── models/                  # Place your GGUF model here
-'''
+```
 
 Notes:
 * Model path, name, and settings are hardcoded in classify_graph.py.
