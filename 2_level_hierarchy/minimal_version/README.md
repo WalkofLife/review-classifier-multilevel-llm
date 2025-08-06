@@ -9,6 +9,7 @@ minimal_version/
 ├── review_classification.py # Script to run classification on sample reviews
 ├── category_hierarchy.csv   # Category hierarchy
 └── models/                  # Place your GGUF model here
+└── .env                     # Enviroment variables, define HUGGINGFACEHUB_API_TOKEN=
 ```
 
 Notes:
