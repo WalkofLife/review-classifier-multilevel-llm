@@ -26,9 +26,11 @@ in the 'models/' folder.
 
 4. Prepare category hierarchy
 Make sure category_hierarchy.csv is in the same folder and contains:
+```
 Level1,Level2
 Food,Taste
 Food,Service
 Delivery,Speed
+```
 
 5. run python review_classification.py
