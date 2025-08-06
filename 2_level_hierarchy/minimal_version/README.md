@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 3. Download the model
 Place your GGUF model file (e.g. mistral-7b-instruct-v0.1.Q4_K_M.gguf)
-in the models/ folder.
+in the 'models/' folder.
 
 4. Prepare category hierarchy
 Make sure category_hierarchy.csv is in the same folder and contains:
