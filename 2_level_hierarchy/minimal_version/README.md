@@ -31,4 +31,4 @@ Food,Taste
 Food,Service
 Delivery,Speed
 
-run python review_classification.py
+5. run python review_classification.py
