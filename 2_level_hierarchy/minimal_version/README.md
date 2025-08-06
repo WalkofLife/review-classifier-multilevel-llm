@@ -16,6 +16,7 @@ Notes:
 * This version is great for demos or quick tests, but not recommended for production.
 * For a more maintainable, configurable version, see the config_version/ folder.
 
+Process:
 1. Install dependencies
 pip install -r requirements.txt
 
