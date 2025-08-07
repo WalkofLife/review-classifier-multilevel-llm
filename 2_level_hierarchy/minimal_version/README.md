@@ -34,4 +34,7 @@ Food,Service
 Delivery,Speed
 ```
 
-5. run python review_classification.py
+5. Create .env file
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+
+6. run python review_classification.py
