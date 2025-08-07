@@ -1,0 +1,27 @@
+# Main configuration for the review classification project
+# Non-secret, structured settings go here
+data:
+  # Path to your hierarchy CSV file (should have Level1, Level2 columns)
+  hierarchy_csv: 'category_hierarchy.csv'
+
+llm:
+  # Which LLM provider to use. Currently, only 'ctransformers' is active.
+  provider: 'ctransformers'
+  
+  # Settings specific to ctransformers (GGUF models run locally)
+  ctransformers:
+    # Path to directory containing your GGUF model file
+    model_dir: 'models'
+    # Name of the actual model file
+    model_file: "mistral-7b-instruct-v0.1.Q4_K_M.gguf"
+    # Model type — usually "llama", "mistral", or "auto" (auto detects)
+    model_type: "auto"
+    
+    # Model generation parameters
+    config:
+      max_new_tokens: 64 # Max tokens to generate in one completion
+      temperature: 0.2  # Lower = more deterministic output
+
+logging:
+  # Logging verbosity — "DEBUG", "INFO", "WARNING", "ERROR"
+  level: "INFO"
