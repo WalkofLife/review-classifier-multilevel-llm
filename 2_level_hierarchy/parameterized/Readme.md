@@ -36,6 +36,8 @@ Food,Taste
 Food,Service
 Delivery,Speed
 
+### 5. Download the model Place your GGUF model file (e.g. mistral-7b-instruct-v0.1.Q4_K_M.gguf) in the 'models/' folder.
+
 ### 5. Run classification
 run python review_classification.py
 
